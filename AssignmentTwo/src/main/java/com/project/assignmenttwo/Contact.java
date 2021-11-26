@@ -25,9 +25,19 @@ public class Contact {
         this.birthday = birthday;
         this.notes = notes;
     }
-    Address address = new Address();
-    MyDate mydate = new MyDate();
-    Contact Ctest = new Contact("Bob", "Tester", "123-home", "123-work", address, "Email-Test", mydate, "Notes-Test");
+
+    public Contact() {
+        this.firstName = "firstName";
+        this.lastName = "lastName";
+        this.homePhone = "homePhone";
+        this.workPhone = "workPhone";
+        this.homeAddress = new Address();
+        this.email = "email";
+        this.birthday = new MyDate();
+        this.notes = "notes";
+    }
+
+
 
     @Override
     public String toString() {

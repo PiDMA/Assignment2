@@ -14,7 +14,7 @@ public class Address {
         this.streetInfo2 = "Test-StreetInfo2";
         this.postalCode = "PostalCodeTest";
         this.province = "Province";
-        this.country = "Canada";
+        this.country = "Country";
     }
 
     public Address(String streetInfo1, String streetInfo2, String city, String postalCode, String province, String country) {
